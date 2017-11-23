@@ -1,7 +1,10 @@
-#Codepath Interview Prep Course
+# Codepath Interview Prep Course
 
 GIF showing completed checkpoints from 1-5.
 
-![](http://i.imgur.com/Xs7PPh4.gif)
+![](https://i.imgur.com/Xs7PPh4.gif)
 
-[Link to video on Imgur](https://imgur.com/Xs7PPh4)
+
+
+In case the GIF is not showing directly on github, here is the [link to GIF on Imgur](https://imgur.com/Xs7PPh4)
+
