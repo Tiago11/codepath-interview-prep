@@ -1,4 +1,4 @@
-/*******************************************************************************
+/*
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
 Example :
@@ -8,7 +8,8 @@ Example :
 [1,2,1]
 [2,1,1]
  NOTE : No 2 entries in the permutation sequence should be the same.
-*******************************************************************************/
+*/
+
 // Java 7.
 public int[][] permute(int[] A) {
 

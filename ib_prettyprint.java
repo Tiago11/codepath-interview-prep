@@ -1,7 +1,4 @@
-// user: s363962@mvrht.net
-// pass: 12345678
-
-/******************************************************************************
+/*
 Print concentric rectangular pattern in a 2d matrix.
 Let us show you some examples to clarify what we mean.
 
@@ -30,7 +27,8 @@ Output:
 The outermost rectangle is formed by A, then the next outermost is formed by A-1 and so on.
 
 You will be given A as an argument to the function you need to implement, and you need to return a 2D array.
-*******************************************************************************/
+*/
+
 // Java 7.
 public int[][] prettyPrint(int A) {
 

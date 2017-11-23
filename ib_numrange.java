@@ -1,4 +1,4 @@
-/*******************************************************************************
+/*
 Given an array of non negative integers A, and a range (B, C),
 find the number of continuous subsequences in the array which have sum S in the range [B, C] or B <= S <= C
 
@@ -13,7 +13,8 @@ ans = 3
 as [5, 1], [5, 1, 0], [5, 1, 0, 2] are the only 3 continuous subsequence with their sum in the range [6, 8]
 
  NOTE : The answer is guranteed to fit in a 32 bit signed integer.
-*******************************************************************************/
+*/
+
 // Java 7.
 public int numRange(int[] A, int B, int C) {
 
