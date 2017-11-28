@@ -1,5 +1,5 @@
 # Codepath Interview Prep Course
 
+Before Session 1
 
-The GIF showing the completed checkpoints doesn't load directly in the README, then here is the [link to the GIF on Imgur](https://imgur.com/Xs7PPh4)
-
+If the GIF showing the completed problems doesn't load directly in the README, then here is the [link to the GIF on Imgur](https://imgur.com/kjGL4RA)
