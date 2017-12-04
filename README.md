@@ -1,5 +1,7 @@
 # Codepath Interview Prep Course
 
-Before Session 2
+### Before Session 2
 
-If the GIF showing the completed problems doesn't load directly in the README, then here is the [link to the GIF on Imgur](https://imgur.com/FOgfWYr)
+![GIF](https://i.imgur.com/alSkXbu.gif)
+
+If the GIF showing the completed problems doesn't load directly in the README, then here is the [link to the GIF on Imgur](https://imgur.com/alSkXbu)
