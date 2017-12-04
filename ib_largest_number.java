@@ -48,6 +48,5 @@ public class Solution {
         }
 
         return sb.toString();
-
     }
 }
