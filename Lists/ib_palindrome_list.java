@@ -32,51 +32,6 @@ public class Solution {
         } else {
             return 0;
         }
-
-    }
-
-    public void print(ListNode A) {
-        ListNode p = A;
-
-        while (p != null) {
-            System.out.print(p.val + " --> ");
-            p = p.next;
-        }
-        System.out.println();
-    }
-
-    public int equal(ListNode a, ListNode B) {
-        ListNode A = a;
-        boolean equal = true;
-
-        while (equal && A != null) {
-            if (A.val != B.val) {
-                equal = false;
-            }
-            A = A.next;
-            B = B.next;
-        }
-
-        if (equal) {
-            return 1;
-        } else {
-            return 0;
-        }
-
-    }
-
-    public ListNode copy(ListNode a) {
-        ListNode A = a;
-        ListNode b = new ListNode(A.val);
-        ListNode B = b;
-
-        while (A.next != null) {
-            B.next = new ListNode(A.next.val);
-            B = B.next;
-            A = A.next;
-        }
-
-        return b;
     }
 
     public ListNode reverse(ListNode A) {
