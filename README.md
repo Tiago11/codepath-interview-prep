@@ -1,8 +1,8 @@
 # Codepath Interview Prep Course
 
-### Before Session Week 5
+### Assignment Week 5
 
-![GIF](https://i.imgur.com/2bIZHyr.gif)
+![GIF](https://i.imgur.com/sD1AwY3.gif)
 
 
-If the GIF showing the completed problems doesn't load directly in the README, then here is the [link to the GIF on Imgur](https://imgur.com/2bIZHyr)
+If the GIF showing the completed problems doesn't load directly in the README, then here is the [link to the GIF on Imgur](https://imgur.com/sD1AwY3)

@@ -15,32 +15,32 @@ public class Solution {
     public ArrayList<ArrayList<Integer>> levelOrder(TreeNode A) {
 
         ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
-        ArrayList<Integer> level = new ArrayList<Integer>();
 
         if (A == null) {
             return res;
         }
 
-        Queue<TreeNode> qCurr = new LinkedList<TreeNode>();
-        Queue<TreeNode> qNext = new LinkedList<TreeNode>();
-        qCurr.add(A);
+        ArrayList<Integer> level = new ArrayList<Integer>();
+        Queue<TreeNode> qCurrLevel = new LinkedList<TreeNode>();
+        Queue<TreeNode> qNextLevel = new LinkedList<TreeNode>();
+        qCurrLevel.add(A);
 
-        while (!qCurr.isEmpty()) {
+        while (!qCurrLevel.isEmpty()) {
 
-            TreeNode node = qCurr.remove();
+            TreeNode node = qCurrLevel.remove();
 
             if (node.left != null) {
-                qNext.add(node.left);
+                qNextLevel.add(node.left);
             }
 
             if (node.right != null) {
-                qNext.add(node.right);
+                qNextLevel.add(node.right);
             }
 
             level.add(node.val);
-            if (qCurr.isEmpty()) {
-                qCurr = qNext;
-                qNext = new LinkedList<TreeNode>();
+            if (qCurrLevel.isEmpty()) {
+                qCurrLevel = qNextLevel;
+                qNextLevel = new LinkedList<TreeNode>();
                 res.add(level);
                 level = new ArrayList<Integer>();
             }

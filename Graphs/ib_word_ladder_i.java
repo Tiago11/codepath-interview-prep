@@ -30,7 +30,7 @@ public class Solution {
 	        for (int i = 0; i < arr.length; i++) {
 	            for (char c='a'; c <= 'z'; c++) {
 	                char tmp = arr[i];
-	                if (arr[i] != 'c') {
+	                if (arr[i] != c) {
 	                    arr[i] = c;
 	                }
 
